@@ -23,6 +23,7 @@ for i in sudoku:
     count = 0
     countj = 0
     print("\n")
+
     for j in i:
         countj += 1
         count +=1
@@ -31,7 +32,6 @@ for i in sudoku:
             print("|", end=" ")
             count = 0
         
-
     counti += 1
 
     if counti == len(i):
